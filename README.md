@@ -1,6 +1,19 @@
-# dataanalytics
-Repositorio de David 
-## MDA EDEM
-![imagen de edem](https://lh3.googleusercontent.com/proxy/l_uARWtEumL3SA01Xevj-3-8pH0pNUjwKAADWq55mSrEQYOuN3VlFqsbT7zX52lj28VSMoW6dVMzvNF8S45AmAXZYAIJnXNWTIZkdp5dgjX3BLIE_sSwh6DJhNVyNe9L)
+dataanalytics_EDEM
 
-### David Valero
+## Ejercicio_NIFI_ELK
+
+#### 1. Exploramos los datos y copiamos link de la API.
+     https://data.cityofnewyork.us/resource/erm2-nwe9.json 
+  
+#### 2.Levantamos Docker (docker-compose up -d) con Kibana, Elasticsearch y Nifi
+  
+#### 3. Nifi
+    InvokeHTTP
+    SplitJson
+    PutElasticsearchHTTP
+  
+#### 4. Kibana
+    Index pattern
+    Reindex 
+    Geo-points
+   
