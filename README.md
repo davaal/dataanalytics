@@ -1,19 +1,10 @@
 dataanalytics_EDEM
 
-## Ejercicio_NIFI_ELK
+## EDEM_MDA
+![EDEM_logo](http://www.emcasa.es/wp-content/uploads/Logo-Edem.jpg)
 
-#### 1. Exploramos los datos y copiamos link de la API.
-     https://data.cityofnewyork.us/resource/erm2-nwe9.json 
-  
-#### 2.Levantamos Docker (docker-compose up -d) con Kibana, Elasticsearch y Nifi
-  
-#### 3. Nifi
-    InvokeHTTP
-    SplitJson
-    PutElasticsearchHTTP
-  
-#### 4. Kibana
-    Index pattern
-    Reindex 
-    Geo-points
+Repositorio del master de Data Analytics de EDEM.
+Curso 2020/2021
+
+David Valero 
    
