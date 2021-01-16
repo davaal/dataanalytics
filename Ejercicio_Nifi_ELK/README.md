@@ -16,4 +16,4 @@ dataanalytics_EDEM
     Index pattern
     Reindex 
     Geo-points
-   
+   ![GEOPOINTS]((http://raw.githubusercontent.com/davaal/dataanalytics/master/Ejercicio_Nifi_ELK/IMAGES/8)GeoPoint_Kibana.png)
